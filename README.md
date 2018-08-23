@@ -7,6 +7,12 @@ tiny img plugin for okam (small program framework)
 ## use
 
 ```
+npm install okam-plugin-tinyimg --save-dev
+```
+
+```
+// your.config.js
+
 rules: [
     {
         match: /\.(png|jpe?g|gif)(\?.*)?$/,
