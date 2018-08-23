@@ -1,0 +1,32 @@
+<template>
+    <view class="home-wrap">
+        <text>{{test}}</text>
+        <image src="../../common/img/game.png" />
+    </view>
+</template>
+<script>
+
+export default {
+    config: {
+        title: '测试测试'
+    },
+
+    data: {
+        test: 'test test'
+    },
+
+    methods: {
+    }
+};
+</script>
+<style lang="stylus">
+
+.home-wrap
+    text
+        padding-right 54px
+        background-image url(../../common/img/go_arrow.png)
+
+    image
+        size 70px
+
+</style>

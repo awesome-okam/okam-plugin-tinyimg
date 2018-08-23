@@ -1,0 +1,39 @@
+{
+  "name": "okam-plugin-tinyimg",
+  "version": "0.1.0",
+  "description": "tiny img plugin for okam (small program framework)",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "fecs ./lib index.js --reporter=baidu --rule",
+    "test": "mocha --require intelli-espower-loader test/tasks/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/The-only/okam-plugin-tinyimg.git"
+  },
+  "keywords": [
+    "swan",
+    "okam",
+    "small program",
+    "plugin",
+    "tinypng"
+  ],
+  "author": "xiaohong8023@outlook.com",
+  "license": "MIT",
+  "engine": {
+    "node": ">= 6"
+  },
+  "devDependencies": {
+    "fecs": "^1.6.1",
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^5.2.0",
+    "power-assert": "^1.6.0"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  }
+}
