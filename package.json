@@ -1,6 +1,6 @@
 {
   "name": "okam-plugin-tinyimg",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "tiny img plugin for okam (small program framework)",
   "main": "index.js",
   "directories": {
@@ -34,6 +34,7 @@
     "power-assert": "^1.6.0"
   },
   "dependencies": {
-    "mkdirp": "^0.5.1"
+    "mkdirp": "^0.5.1",
+    "request": "^2.88.0"
   }
 }
