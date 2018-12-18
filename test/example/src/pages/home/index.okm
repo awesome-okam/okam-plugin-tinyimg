@@ -1,5 +1,6 @@
 <template>
     <view class="home-wrap">
+        <view>{{test}}</view>
         <text>{{test}}</text>
         <image src="../../common/img/game.png" />
     </view>
@@ -25,7 +26,8 @@ export default {
     text
         padding-right 54px
         background-image url(../../common/img/go_arrow.png)
-
+    view 
+        background-image url(../../common/img/timg.gif)
     image
         size 70px
 

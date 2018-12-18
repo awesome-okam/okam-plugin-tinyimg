@@ -9,7 +9,7 @@ const path = require('path');
 const rider = require('rider');
 
 module.exports = {
-    verbose: false,
+    verbose: true,
     root: path.join(__dirname, '..'),
     output: {
         dir: 'dist',

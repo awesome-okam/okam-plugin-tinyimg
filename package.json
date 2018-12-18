@@ -1,6 +1,6 @@
 {
   "name": "okam-plugin-tinyimg",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "tiny img plugin for okam (small program framework)",
   "main": "index.js",
   "directories": {
@@ -9,7 +9,8 @@
   },
   "scripts": {
     "lint": "fecs ./lib index.js --reporter=baidu --rule",
-    "test": "mocha --require intelli-espower-loader test/tasks/**/*.spec.js"
+    "test": "mocha --require intelli-espower-loader test/tasks/**/*.spec.js",
+    "publish": "npm publish --registry https://registry.npmjs.org"
   },
   "repository": {
     "type": "git",
