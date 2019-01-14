@@ -22,7 +22,10 @@ rules: [
                 replaceRaw: true,
 
                 // 若 replaceRaw 为 true, 源文件存放的位置，默认为 'doc/img' (相对于项目根文件)
-                releaseSourcePath: 'doc/img'
+                releaseSourcePath: 'doc/img',
+
+                // 忽略不压缩的文件 ignore(path):boolean
+                // ignore(path) {//... return true/false;}
             }
         }
     }
