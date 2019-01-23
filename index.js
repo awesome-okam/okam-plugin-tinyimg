@@ -7,10 +7,7 @@
 const TinyImg = require('./lib/TinyImg');
 
 function shouldIgnore(path) {
-    if (path.indexOf('node_modules') !== -1) {
-        return true;
-    }
-    return false;
+    return path.indexOf('node_modules') !== -1;
 }
 
 module.exports = function (file, options) {

@@ -15,7 +15,7 @@ npm install okam-plugin-tinyimg --save-dev
 
 rules: [
     {
-        match: /\.(png|jpe?g|gif)(\?.*)?$/,
+        match: /\.(png|jpe?g)(\?.*)?$/,
         processors: {
             tinyimg: {
                 // boolean 是否替换源文件, 默认为 false
@@ -47,4 +47,5 @@ okam [INFO] src/common/img/go_arrow.png has been replaced
 okam [INFO] process src/common/img/game.png 415 ms
 okam [INFO] src/common/img/go_arrow.png has already been compressed
 
+okam [INFO] src/common/img/timg.gif skipped
 ```
